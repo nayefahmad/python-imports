@@ -66,3 +66,12 @@ PyCharm console.
   
 
 ## Problem 2
+Assume this structure: 
+```
+- python-imports (root)
+  - src
+    - ex1.py 
+    - utils.py 
+- config.yaml
+- README.md 
+```
