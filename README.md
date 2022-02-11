@@ -60,3 +60,9 @@ However, when running line-by-line in the PyCharm console, we may need to
 use `sys.path.append()` to add the sub-directory name. By default, the console 
 only knows about the root directory. 
 
+### Notes 
+- `os.path.dirname(__file__)` works when run from CLI, but not when run line-by-line in 
+PyCharm console. 
+  
+
+## Problem 2
