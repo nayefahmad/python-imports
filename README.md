@@ -14,7 +14,7 @@ Assume this directory structure:
 - README.md 
 ```
 
-`ex2.py` imports from `ex2.py` using `import ex1` 
+`ex2.py` imports from `ex1.py` using `import ex1` 
 
 **Running `ex1.py` and `ex2.py` from command line: Works!**
 ```
