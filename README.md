@@ -1,7 +1,7 @@
 # python-imports
 Experimenting with ways to import in python
 
-Reference: 
+Reference: [Understanding Python imports, __init__.py and pythonpath — once and for all](https://towardsdatascience.com/understanding-python-imports-init-py-and-pythonpath-once-and-for-all-4c5249ab6355)
 
 ## Problem 1
 Assume this directory structure: 
@@ -14,7 +14,7 @@ Assume this directory structure:
 - README.md 
 ```
 
-`ex2.py` imports from `ex2.py` using `import ex1` 
+`ex2.py` imports from `ex1.py` using `import ex1` 
 
 **Running `ex1.py` and `ex2.py` from command line: Works!**
 ```
