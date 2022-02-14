@@ -75,8 +75,8 @@ Assume this structure:
   - src
     - ex2.py 
     - utils.py  # contains function read_yaml() 
-- config.yaml
-- README.md 
+  - config.yaml
+  - README.md 
 ```
 Q: How to call `read_yaml` in `ex2.py` to read in `config.yaml`, *without 
 hardcoding paths*. 
