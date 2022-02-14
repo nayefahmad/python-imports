@@ -87,6 +87,6 @@ Ans. Use this setup:
 # ex2.py 
 import utils
 from pathlib import Path
-f = Path(__file__).parents[1].joinpath('yaml-config.yaml')
+f = Path(__file__).parents[1].joinpath('config.yaml')
 config_yaml = utils.read_yaml(f)
 ```
