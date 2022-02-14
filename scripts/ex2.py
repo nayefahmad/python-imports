@@ -1,6 +1,10 @@
 import os
 from pathlib import Path
+
+import config
 import ex1
+
+print(config.config_dict['key1'])
 
 print(f'String imported from ex1.py: {ex1.ex1_string}')
 print(f'file path: {os.path.dirname(__file__)}')
