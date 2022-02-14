@@ -73,9 +73,20 @@ Assume this structure:
 ```
 - python-imports (root)
   - src
-    - ex1.py 
-    - utils.py 
+    - ex2.py 
+    - utils.py  # contains function read_yaml() 
 - config.yaml
 - README.md 
 ```
+Q: How to call `read_yaml` in `ex2.py` to read in `config.yaml`, *without 
+hardcoding paths*. 
 
+Ans. Use this setup: 
+
+```python
+# ex2.py 
+import utils
+from pathlib import Path
+f = Path(__file__).parents[1].joinpath('yaml-config.yaml')
+config_yaml = utils.read_yaml(f)
+```
