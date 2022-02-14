@@ -62,7 +62,10 @@ only knows about the root directory.
 
 ### Notes 
 - `os.path.dirname(__file__)` works when run from CLI, but not when run line-by-line in 
-PyCharm console. 
+PyCharm console.
+  
+- `Path(__file__).parents[0]` will get the directory of the current file. `Path(__file__).parents[1]` 
+will get the parent of that directory, and so on. 
   
 
 ## Problem 2
@@ -75,3 +78,4 @@ Assume this structure:
 - config.yaml
 - README.md 
 ```
+
