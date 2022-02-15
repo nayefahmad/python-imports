@@ -50,6 +50,7 @@ sys.path.extend(['C:\\Nayef\\python-imports', 'C:/Nayef/python-imports'])
 
 - If you print `sys.path` in the console, you'll see that it doesn't include `C:/Nayef/python-imports/scripts/`
 - To fix this, you can just run this in console: `sys.path.append('scripts')`.
+Another option is to change the import statement to `import scripts.ex1 as ex1`, but this is less preferred. 
 
 ## Conclusion
 Running from command line (or using GUI to mimic this) will know which directory
